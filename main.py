@@ -43,7 +43,8 @@ if choice == "Upload image":
         image = Image.open(image_data)
         image.save("input_data_image.png")
         frame = cv2.imread("input_data_image.png")
-                
+
+        st.image(frame)
         # model prediction
         results = model.predict(source=frame,iou=0.7,conf=conf)
         
