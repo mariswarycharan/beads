@@ -3,7 +3,7 @@ import cv2
 import tempfile
 from ultralytics import YOLO
 from PIL import Image
-import numpy as np
+
 
 
 def sort_array_func(val):
