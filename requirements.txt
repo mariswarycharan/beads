@@ -1,5 +1,4 @@
 temp
-opencv-python
 ultralytics
 Pillow
 opencv-python-headless
